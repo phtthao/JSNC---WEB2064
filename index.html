@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Javascript Nâng Cao - WEB2064</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <div class="max-w-6xl mx-auto mt-10 px-4 text-center">
+      <h1 id="title" class="text-2xl font-semibold mb-6">Danh sách</h1>
+
+      <div class="overflow-x-auto">
+        <table class="w-full border border-gray-300 rounded-lg">
+          <thead class="bg-gray-100">
+            <tr>
+              <th class="px-4 py-2 border border-gray-300">STT</th>
+              <th class="px-4 py-2 border border-gray-300">ID</th>
+              <th class="px-4 py-2 border border-gray-300">Tên sản phẩm</th>
+              <th class="px-4 py-2 border border-gray-300">Giá</th>
+              <th class="px-4 py-2 border border-gray-300">Danh mục</th>
+              <th class="px-4 py-2 border border-gray-300">Thương hiệu</th>
+              <th class="px-4 py-2 border border-gray-300">Tồn kho</th>
+              <th class="px-4 py-2 border border-gray-300">Trạng thái</th>
+            </tr>
+          </thead>
+
+          <tbody id="product-table"></tbody>
+        </table>
+      </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.7.7/axios.min.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
